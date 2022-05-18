@@ -19,9 +19,4 @@
     <ProjectReference Include="..\INSS.REPOSITORY\INSS.REPOSITORY.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Request\" />
-  </ItemGroup>
-
-
 </Project>
