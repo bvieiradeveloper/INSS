@@ -1,5 +1,5 @@
 ﻿using INSS.REPOSITORY.Interface;
-using INSS.REPOSITORY.Repositorios;
+using INSS.REPOSITORY.Repository;
 using INSS.SERVICE;
 using INSS.SERVICE.Interfaces;
 using Microsoft.Extensions.DependencyInjection;

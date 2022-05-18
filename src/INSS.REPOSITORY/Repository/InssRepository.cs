@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace INSS.REPOSITORY.Repositorios
+namespace INSS.REPOSITORY.Repository
 {
     public class InssRepository : ICalcularInssRepository
     {
@@ -28,48 +28,48 @@ public static class FakeDataBase
         new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 0,
-            Salario_Teto = 1106.90,
+            SalarioPiso = 0,
+            SalarioTeto = 1106.90,
             Aliquota = 8,
             Ano = 2011,
         },
         new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 1106.91,
-            Salario_Teto = 1844.83,
+            SalarioPiso = 1106.91,
+            SalarioTeto = 1844.83,
             Aliquota = 9,
             Ano = 2011,
         },
         new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 1844.84,
-            Salario_Teto = 3689.66,
+            SalarioPiso = 1844.84,
+            SalarioTeto = 3689.66,
             Aliquota = 11,
             Ano = 2011,
         },
         new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 0,
-            Salario_Teto = 1000,
+            SalarioPiso = 0,
+            SalarioTeto = 1000,
             Aliquota = 7,
             Ano = 2012,
         }
         ,new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 1000.01,
-            Salario_Teto = 1500,
+            SalarioPiso = 1000.01,
+            SalarioTeto = 1500,
             Aliquota = 8,
             Ano = 2012,
         }
         ,new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 1500.01,
-            Salario_Teto = 3000,
+            SalarioPiso = 1500.01,
+            SalarioTeto = 3000,
             Aliquota = 9,
             Ano = 2012,
         }
@@ -77,8 +77,8 @@ public static class FakeDataBase
          ,new AliquotaEntity
         {
             Id = Guid.NewGuid(),
-            Salario_Piso = 3000.01,
-            Salario_Teto = 4000,
+            SalarioPiso = 3000.01,
+            SalarioTeto = 4000,
             Aliquota = 11,
             Ano = 2012,
         }
@@ -92,14 +92,14 @@ public static class FakeDataBase
             Id = Guid.NewGuid(),
             Ano = 2011,
             Teto = 405.86,
-            Salario_Piso = 3689.67
+            SalarioPiso = 3689.67
         },
         new TetoEntity
         {
             Id = Guid.NewGuid(),
             Ano = 2012,
             Teto = 500,
-            Salario_Piso = 4000.01
+            SalarioPiso = 4000.01
         }
     };
 }

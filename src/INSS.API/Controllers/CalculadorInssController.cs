@@ -37,7 +37,7 @@ namespace INSS.API.Controllers
                 salarioBruto = $"R${salario}",
                 salarioLiquido = $"R${salario - desconto}", 
                 ano = anoParsed.Year, 
-                desconto_INSS = $"R${desconto}"
+                descontoINSS = $"R${desconto}"
             });
         }
     }
