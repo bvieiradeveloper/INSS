@@ -26,7 +26,7 @@ namespace INSS.API.Controllers
         {
             if (salario <= 0) return BadRequest(new { erro = "Salário informado inválido!" });
 
-            if (!DateTime.TryParse(data.ToString(), out var anoParsed)) BadRequest(new { erro = "Data informada inválida." });
+            if (!DateTime.TryParse(data.ToString(), out var anoParsed)) return BadRequest(new { erro = "Data informada inválida." });
 
             var desconto = _calcularInssService.CalcularDesconto(anoParsed, salario);
 
