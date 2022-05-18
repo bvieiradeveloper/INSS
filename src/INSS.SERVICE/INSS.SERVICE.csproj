@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\INSS.REPOSITORY\INSS.REPOSITORY.csproj" />
+    <ProjectReference Include="..\INSS.REPOSITORY\INSS.REPOSITORY.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Response\" />
+  </ItemGroup>
+
+</Project>
